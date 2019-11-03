@@ -1137,11 +1137,6 @@ F 3 "~" H 2550 3400 50  0001 C CNN
 	1    2550 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2750 3100 2900 3100
-Connection ~ 2750 3100
-Wire Wire Line
-	2650 3100 2750 3100
 Connection ~ 2650 3100
 Wire Wire Line
 	2650 3050 2650 3100
@@ -1196,8 +1191,6 @@ F 3 "~" H 3900 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3900 3100 4150 3100
-Wire Wire Line
-	3300 3600 3300 3500
 $Comp
 L power:GND #PWR010
 U 1 1 5CAA9289
@@ -1488,24 +1481,6 @@ F 3 "~" H 2300 3100 50  0001 C CNN
 	1    2300 3100
 	0    1    1    0   
 $EndComp
-$Comp
-L Regulator_Linear:MIC5504-3.3YM5 U2
-U 1 1 5C788716
-P 3300 3200
-F 0 "U2" H 3300 3567 50  0000 C CNN
-F 1 "MIC5504-3.3YM5" H 3300 3476 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3300 2800 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf" H 3050 3450 50  0001 C CNN
-F 4 "C88419" H 3300 3200 50  0001 C CNN "LCSC_PN"
-F 5 "MIC5504-3.3YM5-TR" H 3300 3200 50  0001 C CNN "MPN"
-F 6 "Microchip" H 3300 3200 50  0001 C CNN "Manufacturer"
-	1    3300 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2900 3300 2750 3300
-Wire Wire Line
-	2750 3100 2750 3300
 Wire Wire Line
 	11700 2350 11700 2300
 Wire Wire Line
@@ -2229,8 +2204,6 @@ Wire Wire Line
 	4650 3450 4650 3400
 Connection ~ 4150 3100
 Wire Wire Line
-	3900 3100 3700 3100
-Wire Wire Line
 	4150 3100 4650 3100
 Wire Wire Line
 	4150 3000 4150 3100
@@ -2876,4 +2849,24 @@ Text Label 8400 9750 3    50   ~ 0
 SWDIO_OE
 Wire Wire Line
 	8400 9200 8400 9350
+Wire Wire Line
+	3300 3400 3300 3600
+Wire Wire Line
+	2650 3100 3000 3100
+Wire Wire Line
+	3600 3100 3900 3100
+$Comp
+L Regulator_Linear:XC6206PxxxMR U2
+U 1 1 5DBFF3BB
+P 3300 3100
+F 0 "U2" H 3300 3342 50  0000 C CNN
+F 1 "XC6206PxxxMR" H 3300 3251 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3300 3325 50  0001 C CIN
+F 3 "https://www.torexsemi.com/file/xc6206/XC6206.pdf" H 3300 3100 50  0001 C CNN
+F 4 "C5446" H 3300 3100 50  0001 C CNN "LCSC_PN"
+F 5 "XC6206P332MR" H 3300 3100 50  0001 C CNN "MPN"
+F 6 "Torex Semiconductor" H 3300 3100 50  0001 C CNN "Manufacturer"
+	1    3300 3100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
