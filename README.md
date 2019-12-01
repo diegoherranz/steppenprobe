@@ -1,6 +1,6 @@
+Steppenprobe
+============
 Open Source Hardware JTAG/SWD/UART/SWO interface board
-======================================================
-
 https://github.com/diegoherranz/steppenprobe
 
 Basic specs:
@@ -20,3 +20,5 @@ Basic specs:
 - System Reset tactile switch.
 - I/O buffers for protection and to be able to use a wide voltage range (1.65 V to 5.5 V).
 - Descriptive LED indicators.
+
+![PCB top view](images/PCB_render_top.png) ![PCB bottom view](images/PCB_render_bottom.png)
