@@ -1,12 +1,13 @@
 Steppenprobe
 ============
 Open Source Hardware JTAG/SWD/UART/SWO interface board
+
 https://github.com/diegoherranz/steppenprobe
 
 Basic specs:
 -----------
 
-- Open Source Hardware
+- Open Source Hardware and designed in [KiCad](https://kicad-pcb.org/).
 - FT2232H-based
 - Simultaneous operation of JTAG/SWD and UART/SWD.
 - STDC14 connector: standard Arm Cortex debug connector (1.27 mm pitch) with extra pins for UART. JTAG/SWD and UART on a single connector while being completely compatible with the standard Arm Cortex debug connector (middle 10 pins).
@@ -21,4 +22,10 @@ Basic specs:
 - I/O buffers for protection and to be able to use a wide voltage range (1.65 V to 5.5 V).
 - Descriptive LED indicators.
 
+Generated files:
+---------------
+See [releases](https://github.com/diegoherranz/steppenprobe/releases).
+
 ![PCB top view](images/PCB_render_top.png) ![PCB bottom view](images/PCB_render_bottom.png)
+
+
