@@ -2960,8 +2960,6 @@ F 3 "" H 8400 9200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8400 9650 8400 10200
-Text Label 8400 9750 3    50   ~ 0
-SWDIO_OE
 Wire Wire Line
 	8400 9200 8400 9350
 Wire Wire Line
@@ -2986,4 +2984,35 @@ F 8 "Diodes Incorporated" H 3300 3100 50  0001 C CNN "Manufacturer2"
 	1    3300 3100
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R22
+U 1 1 5DF52301
+P 8750 9500
+F 0 "R22" V 8650 9400 50  0000 C CNN
+F 1 "10k" V 8650 9600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8680 9500 50  0001 C CNN
+F 3 "~" H 8750 9500 50  0001 C CNN
+F 4 "C25804" H 8750 9500 50  0001 C CNN "LCSC_PN"
+	1    8750 9500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8750 9650 8750 9700
+$Comp
+L power:GND #PWR065
+U 1 1 5DF533AF
+P 8750 9700
+F 0 "#PWR065" H 8750 9450 50  0001 C CNN
+F 1 "GND" H 8755 9527 50  0000 C CNN
+F 2 "" H 8750 9700 50  0001 C CNN
+F 3 "" H 8750 9700 50  0001 C CNN
+	1    8750 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 9350 8750 8900
+Text Label 8400 9750 3    50   ~ 0
+SWDIO_OE
+Text Label 8750 9000 3    50   ~ 0
+SWD_EN
 $EndSCHEMATC
