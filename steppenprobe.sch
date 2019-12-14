@@ -957,7 +957,7 @@ Wire Wire Line
 Text Label 8450 4550 0    50   ~ 0
 SWD_EN
 Text Label 8450 4650 0    50   ~ 0
-SWDIO_OE
+SWDIO_OE_N
 Wire Wire Line
 	8400 4150 10200 4150
 Wire Wire Line
@@ -3011,8 +3011,8 @@ F 3 "" H 8750 9700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8750 9350 8750 8900
-Text Label 8400 9750 3    50   ~ 0
-SWDIO_OE
+Text Label 8400 9700 3    50   ~ 0
+SWDIO_OE_N
 Text Label 8750 9000 3    50   ~ 0
 SWD_EN
 Wire Wire Line
