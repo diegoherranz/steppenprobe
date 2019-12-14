@@ -2278,8 +2278,8 @@ Text Label 14650 2800 0    50   ~ 0
 TCK_TRGT
 Text Label 12750 3450 0    50   ~ 0
 TDO_R
-Text Label 15600 2000 3    50   ~ 0
-VDRIVE_R
+Text Label 15600 1900 3    50   ~ 0
+VDRIVE_TRGT
 Wire Wire Line
 	15500 1850 15600 1850
 Wire Wire Line
@@ -2657,7 +2657,7 @@ Wire Wire Line
 Wire Wire Line
 	14700 6200 15450 6200
 Text Label 14900 6200 0    50   ~ 0
-VDRIVE_R
+VDRIVE_TRGT
 Wire Wire Line
 	14600 7600 15450 7600
 Wire Wire Line
