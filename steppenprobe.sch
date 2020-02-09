@@ -6,12 +6,12 @@ encoding utf-8
 Sheet 1 1
 Title "Steppenprobe"
 Date ""
-Rev "v0.1"
+Rev "v1.0"
 Comp "Diego Herranz"
 Comment1 ""
 Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment3 "Debugging and boundary scan"
+Comment4 "JTAG/SWD and UART/SWO USB interface board"
 Comment5 ""
 Comment6 ""
 Comment7 ""
@@ -2096,7 +2096,7 @@ U 1 1 5D5B739A
 P 14300 1250
 F 0 "SW2" H 14300 1535 50  0000 C CNN
 F 1 "SW_Push" H 14300 1444 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 14300 1450 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG" H 14300 1450 50  0001 C CNN
 F 3 "~" H 14300 1450 50  0001 C CNN
 F 4 "PTS645SK43SMTR92 LFS" H 14300 1250 50  0001 C CNN "MPN"
 F 5 "C&K" H 14300 1250 50  0001 C CNN "Manufacturer"
