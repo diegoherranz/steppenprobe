@@ -2798,8 +2798,10 @@ F 0 "J2" H 15950 3750 50  0000 R CNN
 F 1 "Conn_ST_STDC14" H 16250 2400 50  0000 R CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical_SMD" H 15550 3100 50  0001 C CNN
 F 3 "https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf" V 15200 1850 50  0001 C CNN
-F 4 "FTSH-107-01-F-DV-K" H 15550 3100 50  0001 C CNN "MPN"
+F 4 "FTSH-107-01-F-DV-K (if 14-way)" H 15550 3100 50  0001 C CNN "MPN"
 F 5 "Samtec" H 15550 3100 50  0001 C CNN "Manufacturer"
+F 6 "FTSH-105-01-F-DV-K (if 10 way)" H 15550 3100 50  0001 C CNN "MPN2"
+F 7 "Samtec" H 15550 3100 50  0001 C CNN "Manufacturer2"
 	1    15550 3100
 	-1   0    0    -1  
 $EndComp
