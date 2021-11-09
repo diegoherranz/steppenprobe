@@ -5,7 +5,7 @@ https://github.com/diegoherranz/steppenprobe
 
 ## Basic specs:
 
-- Open Source Hardware and designed in [KiCad](https://kicad-pcb.org).
+- Open Source Hardware and designed in [KiCad](https://kicad.org).
 - [FT2232H](https://ftdichip.com/products/ft2232hl)-based
 - Simultaneous operation of JTAG/SWD and UART/SWO.
 - STDC14 connector: standard Arm Cortex debug connector (1.27 mm pitch) with extra pins for UART. JTAG/SWD and UART on a single connector while being compatible with the standard Arm Cortex debug connector (middle 10 pins).
