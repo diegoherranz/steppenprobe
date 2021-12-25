@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "74xxGxx_power_pins")(type "Legacy")(uri "${KIPRJMOD}/74xxGxx_power_pins.lib")(options "")(descr ""))
-)
