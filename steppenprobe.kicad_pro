@@ -49,7 +49,12 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|100000000|85100000|00000000-0000-0000-0000-00005c83bd24|830aee7f-dfce-42cd-85ef-6370f6dc02f5",
+        "silk_over_copper|100000000|86400000|00000000-0000-0000-0000-00005c83bd24|f321809c-ab7a-4356-9b11-4c0d46c421ba",
+        "silk_over_copper|120405000|50000000|1533b475-c834-40d3-ae2c-55eb46ae810f|af35a153-e4cc-4cb5-9b0a-a247aa9a27b2",
+        "silk_over_copper|129595000|50000000|1533b475-c834-40d3-ae2c-55eb46ae810f|581488ee-fe1f-43d1-a23d-526666571191"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
